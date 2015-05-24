@@ -1,0 +1,104 @@
+/*
+ * 
+ * Project Name: HTML5 Quiz
+ * Author Name: Yubaraj Shrestha
+ * URI: http://www.yubarajshrestha.com.np/
+ * 
+ */
+
+ * {}
+
+ body {
+ 	background: #ddd;
+ }
+
+ .container {
+ 	width: 70%;
+ 	margin: 15px auto;
+ 	min-width: 400px;
+ }
+
+ .left {
+ 	float: left;
+ }
+ .right {
+ 	float: right;
+ }
+ .center {
+	text-align: center;
+ }
+ .clearfix {
+ 	clear: both;
+ }
+
+ header, footer {
+ 	background: lightblue;
+ 	padding: 10px 25px;
+ 	box-shadow: 0px 0px 5px 0px #000;
+ 	border-radius: 2px;
+ }
+
+ article {
+ 	padding: 25px;
+ }
+
+ ul {
+ 	padding: 15px auto;
+ }
+ ul > li {
+ 	list-style-type: none;
+ }
+
+ button {
+ 	background: #fff;
+ 	color: #000;
+ 	padding: 5px 10px;
+ 	border: none;
+ 	box-shadow: 0px 0px 5px 0px #000;
+ 	border-radius: 3px;
+ }
+
+ form.contactForm {
+ 	width: 400px;
+ 	margin: auto;
+ }
+ form.contactForm label, form.contactForm input {
+ 	width: 100%;
+ 	display: block;
+ 	margin: 5px;
+ }
+ form.contactForm input[type="text"] {
+ 	padding: 5px;
+ 	border-radius: 3px;
+ 	border: 1px solid #fff;
+ }
+ form.contactForm #submit {
+ 	width: 100px !important;
+ 	text-align: center;
+ 	padding: 5px;
+ 	border: 1px solid #000;
+ 	border-radius: 3px;
+ 	background: #fff;
+ 	margin: auto !important;
+ 	cursor: pointer;
+ }
+ .answer {
+ 	background: lavender;
+ 	padding: 10px;
+ 	display: none;
+ 	color: green;
+ 	font-weight: bolder;
+ }
+
+ .blink {
+ 	color: crimson;
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2, start);
+ }
+ @keyframes blink {
+    80% {
+        visibility: hidden;
+    }
+ }
